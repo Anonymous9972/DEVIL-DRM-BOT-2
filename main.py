@@ -54,8 +54,8 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="tg://user?id=1730257818"),
-            InlineKeyboardButton(text="🔍 Channel", url="https://t.me/teamdevilbotz"),
+            InlineKeyboardButton(text="📞 Contact", url="tg://user?id=7674725731"),
+            InlineKeyboardButton(text="🔍 Channel", url="https://t.me/+ncwIy7oGf8s0ZGY1"),
         ],
     ]
 )
@@ -221,7 +221,7 @@ async def remove_user(client, message: Message):
     except ValueError:
         await message.reply_text("Invalid command format. Use: /removeuser <user_id>")
 
-YOUR_ADMIN_ID = 1730257818
+YOUR_ADMIN_ID = 5168669934
 
 # Helper function to check admin privilege
 def is_admin(user_id):
